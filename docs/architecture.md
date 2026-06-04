@@ -1,5 +1,9 @@
 # Architecture
 
+## Portfolio-safe visual design
+
+![AI Automation Ops Lab architecture](assets/architecture-overview.svg)
+
 ## High-level design
 
 ```mermaid

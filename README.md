@@ -10,6 +10,16 @@ Many AI projects are simple prompt demos. This one is an operational automation 
 
 It demonstrates how classic IT infrastructure skills can be combined with AI automation to reduce manual work and improve operational visibility.
 
+## Visual overview
+
+These portfolio-safe visuals show the professional workflow without exposing private data, credentials, browser sessions, or personal records.
+
+![AI Automation Ops Lab architecture](docs/assets/architecture-overview.svg)
+
+![Operational workflow pipeline](docs/assets/workflow-pipeline.svg)
+
+![Sanitized dashboard and reporting mock](docs/assets/dashboard-reporting-mock.svg)
+
 ## Capabilities demonstrated
 
 - **Self-hosted operations:** Linux VPS, systemd services, Docker, local dashboard, monitoring.

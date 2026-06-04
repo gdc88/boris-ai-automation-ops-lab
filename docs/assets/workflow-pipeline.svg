@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="title desc">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1e293b" stroke-width="0.6"/></pattern>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#67e8f9"/></marker>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill:#e5e7eb; }
+  .title{font-size:26px;font-weight:700}.subtitle{font-size:13px;fill:#94a3b8}.label{font-size:14px;font-weight:700}.small{font-size:10.5px;fill:#cbd5e1}.tiny{font-size:9px;fill:#94a3b8}.box{rx:12;stroke-width:1.6}.cyan{fill:rgba(8,51,68,.72);stroke:#22d3ee}.green{fill:rgba(6,78,59,.72);stroke:#34d399}.violet{fill:rgba(76,29,149,.62);stroke:#a78bfa}.amber{fill:rgba(120,53,15,.58);stroke:#fbbf24}.rose{fill:rgba(136,19,55,.58);stroke:#fb7185}.slate{fill:rgba(30,41,59,.72);stroke:#94a3b8}.orange{fill:rgba(124,45,18,.60);stroke:#fb923c}.line{stroke:#67e8f9;stroke-width:2;fill:none;marker-end:url(#arrow);opacity:.9}.dash{stroke-dasharray:6 5}.muted{stroke:#64748b;marker-end:url(#arrow);opacity:.7}
+</style>
+<title id="title">Operational Workflow Pipeline</title><desc id="desc">How repeated manual work becomes audited, visible, and Telegram-delivered automation.</desc>
+<rect width="100%" height="100%" fill="url(#bg)"/><rect width="100%" height="100%" fill="url(#grid)" opacity=".75"/>
+<text x="40" y="48" class="title">Operational Workflow Pipeline</text><text x="40" y="72" class="subtitle">How repeated manual work becomes audited, visible, and Telegram-delivered automation.</text>
+
+<path d="M170 190 L255 190" class="line"/><path d="M365 190 L450 190" class="line"/><path d="M560 190 L645 190" class="line"/><path d="M755 190 L840 190" class="line"/>
+<rect x="40" y="140" width="130" height="100" class="box cyan"/><text x="64" y="174" class="label">Trigger</text><text x="60" y="198" class="small">Telegram request</text><text x="60" y="216" class="tiny">or scheduled job</text>
+<rect x="255" y="140" width="110" height="100" class="box green"/><text x="279" y="174" class="label">Collect</text><text x="275" y="198" class="small">sources</text><text x="275" y="216" class="tiny">web · Gmail · APIs</text>
+<rect x="450" y="140" width="110" height="100" class="box orange"/><text x="474" y="174" class="label">Verify</text><text x="470" y="198" class="small">visible QA</text><text x="470" y="216" class="tiny">screens · logs</text>
+<rect x="645" y="140" width="110" height="100" class="box violet"/><text x="669" y="174" class="label">Record</text><text x="665" y="198" class="small">tracker</text><text x="665" y="216" class="tiny">dedupe · status</text>
+<rect x="840" y="140" width="120" height="100" class="box amber"/><text x="863" y="174" class="label">Report</text><text x="860" y="198" class="small">Telegram</text><text x="860" y="216" class="tiny">links + actions</text>
+<rect x="90" y="315" width="780" height="88" class="box rose"/><text x="122" y="348" class="label">Control points</text><text x="122" y="376" class="small">Human approval for side effects · secret isolation · sanitized public artifacts · failure reporting instead of silent assumptions</text>
+<path d="M310 240 C310 285 170 285 170 315" class="line muted dash"/><path d="M700 240 C700 285 790 285 790 315" class="line muted dash"/>
+
+</svg>

@@ -1,5 +1,11 @@
 # Sanitized case studies
 
+## Visual workflow evidence
+
+![Operational workflow pipeline](assets/workflow-pipeline.svg)
+
+![Sanitized dashboard and reporting mock](assets/dashboard-reporting-mock.svg)
+
 ## 1. Job-search operations assistant
 
 Problem: Job search across multiple sources creates duplicate tracking, missed updates, and repetitive manual checking.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1e293b" stroke-width="0.6"/></pattern>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#67e8f9"/></marker>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill:#e5e7eb; }
+  .title{font-size:26px;font-weight:700}.subtitle{font-size:13px;fill:#94a3b8}.label{font-size:14px;font-weight:700}.small{font-size:10.5px;fill:#cbd5e1}.tiny{font-size:9px;fill:#94a3b8}.box{rx:12;stroke-width:1.6}.cyan{fill:rgba(8,51,68,.72);stroke:#22d3ee}.green{fill:rgba(6,78,59,.72);stroke:#34d399}.violet{fill:rgba(76,29,149,.62);stroke:#a78bfa}.amber{fill:rgba(120,53,15,.58);stroke:#fbbf24}.rose{fill:rgba(136,19,55,.58);stroke:#fb7185}.slate{fill:rgba(30,41,59,.72);stroke:#94a3b8}.orange{fill:rgba(124,45,18,.60);stroke:#fb923c}.line{stroke:#67e8f9;stroke-width:2;fill:none;marker-end:url(#arrow);opacity:.9}.dash{stroke-dasharray:6 5}.muted{stroke:#64748b;marker-end:url(#arrow);opacity:.7}
+</style>
+<title id="title">AI Automation Ops Lab — Architecture</title><desc id="desc">Self-hosted AI operations layer connecting infrastructure, agents, browser QA, and reporting.</desc>
+<rect width="100%" height="100%" fill="url(#bg)"/><rect width="100%" height="100%" fill="url(#grid)" opacity=".75"/>
+<text x="40" y="48" class="title">AI Automation Ops Lab — Architecture</text><text x="40" y="72" class="subtitle">Self-hosted AI operations layer connecting infrastructure, agents, browser QA, and reporting.</text>
+
+<path d="M210 170 C270 170 290 170 345 170" class="line"/><path d="M525 170 C590 115 645 115 710 115" class="line"/><path d="M525 170 C590 170 645 170 710 170" class="line"/><path d="M525 170 C590 225 645 225 710 225" class="line"/><path d="M420 230 L420 310" class="line muted"/><path d="M290 355 L220 355" class="line muted"/><path d="M550 355 L700 355" class="line muted"/>
+<rect x="40" y="125" width="170" height="92" class="box cyan"/><text x="62" y="155" class="label">Telegram + Dashboard</text><text x="62" y="181" class="small">Human-in-the-loop UI</text><text x="62" y="199" class="tiny">reports · approvals · status</text>
+<rect x="345" y="115" width="180" height="115" class="box green" filter="url(#glow)"/><text x="372" y="150" class="label">Hermes Agent Runtime</text><text x="372" y="176" class="small">sessions · memory · skills</text><text x="372" y="195" class="tiny">tool orchestration + scheduling</text>
+<rect x="710" y="80" width="190" height="70" class="box amber"/><text x="732" y="110" class="label">Linux VPS Ops</text><text x="732" y="134" class="small">systemd · Docker · logs</text>
+<rect x="710" y="155" width="190" height="70" class="box violet"/><text x="732" y="184" class="label">Knowledge + Docs</text><text x="732" y="208" class="small">Sheets · Gmail · research</text>
+<rect x="710" y="230" width="190" height="70" class="box orange"/><text x="732" y="259" class="label">Visible Browser QA</text><text x="732" y="283" class="small">screenshots · evidence</text>
+<rect x="290" y="310" width="260" height="94" class="box rose"/><text x="318" y="343" class="label">Security Boundary</text><text x="318" y="369" class="small">sanitized public docs only</text><text x="318" y="388" class="tiny">no tokens · no private data · no browser profiles</text>
+<rect x="40" y="318" width="180" height="74" class="box slate"/><text x="63" y="348" class="label">Scheduled Agents</text><text x="63" y="372" class="small">daily scans + alerts</text>
+<rect x="700" y="325" width="200" height="74" class="box slate"/><text x="723" y="355" class="label">Telegram Reports</text><text x="723" y="379" class="small">links · actions · proof</text>
+
+</svg>
