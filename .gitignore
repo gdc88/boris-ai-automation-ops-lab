@@ -1,0 +1,10 @@
+# Local/private material
+.env
+*.secret
+*.key
+*.pem
+*.sqlite
+*.db
+media_cache/
+private/
+__pycache__/
