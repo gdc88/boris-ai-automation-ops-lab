@@ -20,6 +20,10 @@ These portfolio-safe visuals show the professional workflow without exposing pri
 
 ![Sanitized dashboard and reporting mock](docs/assets/dashboard-reporting-mock.svg)
 
+More visual evidence:
+
+- [Portfolio-safe screenshots and evidence mocks](docs/screenshots.md)
+
 ## Capabilities demonstrated
 
 - **Self-hosted operations:** Linux VPS, systemd services, Docker, local dashboard, monitoring.
@@ -35,6 +39,7 @@ These portfolio-safe visuals show the professional workflow without exposing pri
 docs/
   architecture.md            High-level architecture and components
   case-studies.md            Sanitized workflow examples
+  screenshots.md             Portfolio-safe visual evidence mocks
   linkedin-placement.md      Exact LinkedIn/CV positioning text
   implementation-roadmap.md  How I would evolve this for a team/company
 SECURITY.md                  Public-safe disclosure and secret-handling note

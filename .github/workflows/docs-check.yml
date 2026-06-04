@@ -13,6 +13,7 @@ jobs:
           test -f README.md
           test -f docs/architecture.md
           test -f docs/case-studies.md
+          test -f docs/screenshots.md
           test -f docs/linkedin-placement.md
           test -f SECURITY.md
       - name: Basic secret pattern guard

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sanitized job tracker workflow mock</title>
+  <desc id="desc">A mock spreadsheet workflow showing candidate rows, verification status, and next-action tracking without personal job-search data.</desc>
+  <rect width="1200" height="720" rx="28" fill="#07131f"/>
+  <text x="64" y="76" fill="#eef6ff" font-size="36" font-family="Inter,Segoe UI,Arial" font-weight="700">Structured tracker + manual-verification gate</text>
+  <text x="64" y="112" fill="#8fa4bf" font-size="18" font-family="Inter,Segoe UI,Arial">Mock spreadsheet view — no company names, personal applications, or private notes.</text>
+  <g font-family="Inter,Segoe UI,Arial">
+    <rect x="72" y="155" width="1056" height="412" rx="18" fill="#0f1e30" stroke="#2b405f"/>
+    <rect x="72" y="155" width="1056" height="54" rx="18" fill="#183354"/>
+    <text x="104" y="190" fill="#e9f3ff" font-size="16" font-weight="700">Source</text>
+    <text x="270" y="190" fill="#e9f3ff" font-size="16" font-weight="700">Role type</text>
+    <text x="492" y="190" fill="#e9f3ff" font-size="16" font-weight="700">Fit signal</text>
+    <text x="706" y="190" fill="#e9f3ff" font-size="16" font-weight="700">Status</text>
+    <text x="908" y="190" fill="#e9f3ff" font-size="16" font-weight="700">Next action</text>
+    <g fill="#122840">
+      <rect x="92" y="232" width="1016" height="56" rx="12"/>
+      <rect x="92" y="308" width="1016" height="56" rx="12"/>
+      <rect x="92" y="384" width="1016" height="56" rx="12"/>
+      <rect x="92" y="460" width="1016" height="56" rx="12"/>
+    </g>
+    <g fill="#b8c8dd" font-size="15">
+      <text x="104" y="266">LinkedIn</text><text x="270" y="266">Cloud / Infra + AI</text><text x="492" y="266">High</text><text x="706" y="266" fill="#39d98a">Verified open</text><text x="908" y="266">Prepare CV variant</text>
+      <text x="104" y="342">Job board</text><text x="270" y="342">Systems Engineer</text><text x="492" y="342">Medium</text><text x="706" y="342" fill="#ffcf5a">Manual verify</text><text x="908" y="342">Check duplicate history</text>
+      <text x="104" y="418">Recruiter post</text><text x="270" y="418">Automation Ops</text><text x="492" y="418">High</text><text x="706" y="418" fill="#39d98a">Review-ready</text><text x="908" y="418">Send tailored note</text>
+      <text x="104" y="494">Company site</text><text x="270" y="494">Platform Support</text><text x="492" y="494">Low</text><text x="706" y="494" fill="#ff6b6b">Archived</text><text x="908" y="494">No action</text>
+    </g>
+    <rect x="92" y="602" width="310" height="62" rx="16" fill="#112941" stroke="#1f8fdd"/>
+    <text x="116" y="640" fill="#dcecff" font-size="16">Source-of-truth rows</text>
+    <rect x="445" y="602" width="310" height="62" rx="16" fill="#112941" stroke="#39d98a"/>
+    <text x="469" y="640" fill="#dcecff" font-size="16">Duplicate/application guard</text>
+    <rect x="798" y="602" width="310" height="62" rx="16" fill="#112941" stroke="#ffcf5a"/>
+    <text x="822" y="640" fill="#dcecff" font-size="16">Human final decision</text>
+  </g>
+</svg>

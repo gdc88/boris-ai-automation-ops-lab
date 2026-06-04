@@ -6,6 +6,8 @@
 
 ![Sanitized dashboard and reporting mock](assets/dashboard-reporting-mock.svg)
 
+Additional portfolio-safe evidence mocks are available in [screenshots.md](screenshots.md).
+
 ## 1. Job-search operations assistant
 
 Problem: Job search across multiple sources creates duplicate tracking, missed updates, and repetitive manual checking.
