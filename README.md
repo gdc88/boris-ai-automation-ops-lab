@@ -4,6 +4,10 @@ A portfolio-safe case study showing how I designed and operated a private AI aut
 
 This repository is intentionally **sanitized**: it does not include credentials, private job tracker data, browser profiles, production configuration, or personal records. It documents architecture, workflows, and engineering thinking in a way that recruiters and technical interviewers can review safely.
 
+## Live portfolio page
+
+- https://gdc88.github.io/boris-ai-automation-ops-lab/
+
 ## Why this project matters
 
 Many AI projects are simple prompt demos. This one is an operational automation layer: scheduled agents, Telegram delivery, browser-assisted workflows, document/research extraction, Google Sheets/Gmail integrations, monitoring, and repeatable runbooks.
