@@ -53,7 +53,7 @@ Included here:
 - Sanitized architecture visuals.
 - Mock operational screenshots.
 - Workflow descriptions and engineering rationale.
-- Recruiter/interviewer-safe evidence of system design.
+- Public-review-safe evidence of system design.
 
 Not included here:
 

@@ -2,7 +2,7 @@
 
 A portfolio-safe case study showing how I designed and operated a private AI automation layer on a Linux VPS, connecting infrastructure operations with modern AI-agent workflows.
 
-This repository is intentionally **sanitized**: it does not include credentials, private job tracker data, browser profiles, production configuration, or personal records. It documents architecture, workflows, and engineering thinking in a way that recruiters and technical interviewers can review safely.
+This repository is intentionally **sanitized**: it does not include credentials, private job tracker data, browser profiles, production configuration, or personal records. It documents architecture, workflows, and engineering thinking in a way that can be reviewed safely.
 
 ## Live portfolio page
 
@@ -33,7 +33,7 @@ More visual evidence:
 - **Self-hosted operations:** Linux VPS, systemd services, Docker, local dashboard, monitoring.
 - **Agentic workflows:** scheduled agents, tool-enabled tasks, browser automation, research extraction, report delivery.
 - **Messaging interface:** Telegram-first delivery for alerts, summaries, and task reports.
-- **Career operations:** job-search tracking, CV/document workflow support, source review, recruiter-ready reporting.
+- **Career operations:** job-search tracking, CV/document workflow support, source review, publication-ready reporting.
 - **Visible-browser QA:** screenshot/recording-based verification for browser workflows.
 - **Security awareness:** no secrets in repo, public-safe architecture, clear separation between private system and portfolio documentation.
 
@@ -44,14 +44,14 @@ docs/
   architecture.md            High-level architecture and components
   case-studies.md            Sanitized workflow examples
   screenshots.md             Portfolio-safe visual evidence mocks
-  linkedin-placement.md      Exact LinkedIn/CV positioning text
+  public-positioning.md      Public technical positioning text
   implementation-roadmap.md  How I would evolve this for a team/company
 SECURITY.md                  Public-safe disclosure and secret-handling note
 ```
 
 ## Portfolio positioning
 
-Suggested LinkedIn/GitHub project title:
+Suggested public portfolio project title:
 
 > Private AI Automation Layer / Agentic OS for Personal Operations
 
@@ -85,11 +85,11 @@ Current portfolio map:
 - **[AI Automation Ops Lab](https://github.com/gdc88/boris-ai-automation-ops-lab)** — Operational base layer: self-hosted AI automation patterns, Telegram delivery, scheduled agents, browser-assisted workflows, and infrastructure operations thinking.
 - **[Ops Agent Playbook Runner](https://github.com/gdc88/ops-agent-playbook-runner)** — Engineering proof layer: safe, auditable, dry-run-first operations playbooks with evidence bundles and policy controls.
 - **[AI Resume Adapter Bot](https://github.com/gdc88/ai-resume-adapter-bot)** — Career automation layer: ATS/job-description analysis and truthful resume tailoring workflow for the German market.
-- **[JobMatch AI](https://github.com/gdc88/JobMatch-AI)** — Course/final-project layer: static MVP for job-match analysis, recruiter message drafting, and portfolio demonstration.
+- **[JobMatch AI](https://github.com/gdc88/JobMatch-AI)** — Course/final-project layer: static MVP for job-match analysis, outreach draft generation, and portfolio demonstration.
 
 Growth direction:
 
-- Keep public repositories sanitized and recruiter-safe.
+- Keep public repositories sanitized and public-safe.
 - Prefer clear architecture, safety boundaries, screenshots/visuals, and evidence over private operational data.
 - Update each project as the overall system matures: better runbooks, stronger guardrails, clearer German-market positioning, and more polished demos.
-- Use GitHub as the proof layer and LinkedIn as the recruiter funnel once the LinkedIn profile is aligned with the same positioning.
+- Use GitHub as the proof layer for public technical growth.

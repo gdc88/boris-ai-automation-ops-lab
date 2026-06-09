@@ -19,9 +19,9 @@
       <rect x="92" y="460" width="1016" height="56" rx="12"/>
     </g>
     <g fill="#b8c8dd" font-size="15">
-      <text x="104" y="266">LinkedIn</text><text x="270" y="266">Cloud / Infra + AI</text><text x="492" y="266">High</text><text x="706" y="266" fill="#39d98a">Verified open</text><text x="908" y="266">Prepare CV variant</text>
+      <text x="104" y="266">external source</text><text x="270" y="266">Cloud / Infra + AI</text><text x="492" y="266">High</text><text x="706" y="266" fill="#39d98a">Verified open</text><text x="908" y="266">Prepare CV variant</text>
       <text x="104" y="342">Job board</text><text x="270" y="342">Systems Engineer</text><text x="492" y="342">Medium</text><text x="706" y="342" fill="#ffcf5a">Manual verify</text><text x="908" y="342">Check duplicate history</text>
-      <text x="104" y="418">Recruiter post</text><text x="270" y="418">Automation Ops</text><text x="492" y="418">High</text><text x="706" y="418" fill="#39d98a">Review-ready</text><text x="908" y="418">Send tailored note</text>
+      <text x="104" y="418">External job post</text><text x="270" y="418">Automation Ops</text><text x="492" y="418">High</text><text x="706" y="418" fill="#39d98a">Review-ready</text><text x="908" y="418">Send tailored note</text>
       <text x="104" y="494">Company site</text><text x="270" y="494">Platform Support</text><text x="492" y="494">Low</text><text x="706" y="494" fill="#ff6b6b">Archived</text><text x="908" y="494">No action</text>
     </g>
     <rect x="92" y="602" width="310" height="62" rx="16" fill="#112941" stroke="#1f8fdd"/>
