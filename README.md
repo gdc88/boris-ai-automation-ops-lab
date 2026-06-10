@@ -27,11 +27,13 @@ These portfolio-safe visuals show the professional workflow without exposing pri
 More visual evidence:
 
 - [Portfolio-safe screenshots and evidence mocks](docs/screenshots.md)
+- [Hermes vs Cowork, OpenClaw, and Odysseus](docs/hermes-vs-cowork-openclaw-odysseus.md) — practical explainer of where a self-hosted operations layer fits versus interactive AI workspaces and local AI sandboxes.
 
 ## Capabilities demonstrated
 
 - **Self-hosted operations:** Linux VPS, systemd services, Docker, local dashboard, monitoring.
 - **Agentic workflows:** scheduled agents, tool-enabled tasks, browser automation, research extraction, report delivery.
+- **AI-agent tool selection:** practical comparison of Hermes, Cowork-style workspaces, OpenClaw-style agents, and local AI workspaces such as Odysseus.
 - **Messaging interface:** Telegram-first delivery for alerts, summaries, and task reports.
 - **Career operations:** job-search tracking, CV/document workflow support, source review, publication-ready reporting.
 - **Visible-browser QA:** screenshot/recording-based verification for browser workflows.
@@ -43,6 +45,8 @@ More visual evidence:
 docs/
   architecture.md            High-level architecture and components
   case-studies.md            Sanitized workflow examples
+  hermes-vs-cowork-openclaw-odysseus.md
+                             Practical AI-agent landscape explainer
   screenshots.md             Portfolio-safe visual evidence mocks
   public-positioning.md      Public technical positioning text
   implementation-roadmap.md  How I would evolve this for a team/company
